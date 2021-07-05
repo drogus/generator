@@ -41,7 +41,7 @@ static VALUE rb_generate(VALUE self, VALUE r_count)
 
     clock_t end = clock();
     double time_spent = (double)(end - begin) / (CLOCKS_PER_SEC / 1000);
-    printf("execution: %dms", (int)time_spent);
+    printf("cpp: %dms", (int)time_spent);
 
     for (int i; i < count; i++)
     {

@@ -1,9 +1,19 @@
 # frozen_string_literal: true
 
+require 'rutie'
+
+module RustGenerator
+  Rutie.new(:generator).init("Init_rust_generator", __dir__)
+end
+
 module Generator
   class << self
-    def generate(count)
+    def c_generate(count)
       generator._generate(count)
+    end
+
+    def rust_generate(count)
+      RustGenerator.generate(count)
     end
 
     private

@@ -1,0 +1,12 @@
+[package]
+name = "generator"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "generator"
+crate-type = ["cdylib"]
+
+[dependencies]
+rutie = "0.8.2"
+rand = "0.8.4"

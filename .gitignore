@@ -1,2 +1,8 @@
 /tmp
 /lib/**/*.so
+
+
+# Added by cargo
+
+/target
+Cargo.lock
