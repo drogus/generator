@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    generator (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.0.3)
+    rake-compiler (1.1.1)
+      rake
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  bundler (~> 2.0)
+  generator!
+  rake (~> 13.0)
+  rake-compiler
+
+BUNDLED WITH
+   2.2.11
